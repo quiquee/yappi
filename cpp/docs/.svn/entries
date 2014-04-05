@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="42"
+   name=""
+   committed-date="2006-06-04T16:08:02.389346Z"
+   url="http://svn.berlios.de/svnroot/repos/yapp/yapplib/docs"
+   last-author="todsawat"
+   kind="dir"
+   uuid="07513077-7409-0410-9367-c17c9522e285"
+   revision="51"/>
+<entry
+   committed-rev="42"
+   name="mingw32_msys.txt"
+   text-time="2006-06-06T15:30:53.000000Z"
+   committed-date="2006-06-04T16:08:02.389346Z"
+   checksum="9cf8b18a50836cbb41075be79ea5f023"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:53.000000Z"/>
+<entry
+   committed-rev="42"
+   name="unix.txt"
+   text-time="2006-06-06T15:30:53.000000Z"
+   committed-date="2006-06-04T16:08:02.389346Z"
+   checksum="3e00f3010c6d6453fd9d28d27876e1fe"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:53.000000Z"/>
+<entry
+   committed-rev="30"
+   name="mingw32.txt"
+   text-time="2006-06-06T15:30:53.000000Z"
+   committed-date="2006-05-31T15:12:12.154441Z"
+   checksum="15a024eea0fba5923ed6ddfb39d09edd"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:53.000000Z"/>
+<entry
+   committed-rev="35"
+   name="mingw32_wxdevcpp.txt"
+   text-time="2006-06-06T15:30:53.000000Z"
+   committed-date="2006-06-03T01:58:30.263994Z"
+   checksum="6cd53d574e86d242fd0f99585b3ed093"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:53.000000Z"/>
+<entry
+   committed-rev="42"
+   name="TODO"
+   text-time="2006-06-06T15:30:53.000000Z"
+   committed-date="2006-06-04T16:08:02.389346Z"
+   checksum="e11a032ff6f0cfedadcda59810fd4a80"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:53.000000Z"/>
+</wc-entries>

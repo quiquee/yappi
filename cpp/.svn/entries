@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="43"
+   name=""
+   committed-date="2006-06-12T14:04:00.990166Z"
+   url="http://svn.berlios.de/svnroot/repos/yapp/yapplib"
+   last-author="todsawat"
+   kind="dir"
+   uuid="07513077-7409-0410-9367-c17c9522e285"
+   prop-time="2006-06-06T15:30:57.000000Z"
+   revision="51"/>
+<entry
+   name="build"
+   kind="dir"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   name="samples"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="docs"
+   kind="dir"/>
+<entry
+   name="uml"
+   kind="dir"/>
+<entry
+   committed-rev="26"
+   name="README"
+   text-time="2006-06-06T15:30:57.000000Z"
+   committed-date="2006-05-31T14:46:05.703718Z"
+   checksum="cbe3cc812f205006d6ff9f31f8c2fbd1"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:53.000000Z"/>
+</wc-entries>

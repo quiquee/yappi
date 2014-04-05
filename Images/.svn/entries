@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2006-03-26T22:52:20.216947Z"
+   url="http://svn.berlios.de/svnroot/repos/yapp/Images"
+   last-author="quiquee"
+   kind="dir"
+   revision="51"/>
+<entry
+   committed-rev="4"
+   name="yappi.png"
+   text-time="2006-03-01T10:16:21.000000Z"
+   committed-date="2006-03-26T22:52:20.216947Z"
+   checksum="897b986a68a141464d75dfc6bd03c81e"
+   last-author="quiquee"
+   kind="file"
+   prop-time="2006-03-26T22:49:48.000000Z"/>
+<entry
+   committed-rev="4"
+   name="yappi_on_paper.png"
+   text-time="2006-03-01T10:24:20.000000Z"
+   committed-date="2006-03-26T22:52:20.216947Z"
+   checksum="79133ad3e62b602c1bb71c8fef98d4d0"
+   last-author="quiquee"
+   kind="file"
+   prop-time="2006-03-26T22:49:49.000000Z"/>
+<entry
+   committed-rev="4"
+   name="yappi_oilified.png"
+   text-time="2006-03-01T10:25:39.000000Z"
+   committed-date="2006-03-26T22:52:20.216947Z"
+   checksum="44654bb2523faf0c90d69737d3ee51ae"
+   last-author="quiquee"
+   kind="file"
+   prop-time="2006-03-26T22:49:48.000000Z"/>
+<entry
+   committed-rev="4"
+   name="yappi_oilified1.png"
+   text-time="2006-03-01T19:36:25.000000Z"
+   committed-date="2006-03-26T22:52:20.216947Z"
+   checksum="78adbd5f8c0c66260831151f006a1ff2"
+   last-author="quiquee"
+   kind="file"
+   prop-time="2006-03-26T22:49:48.000000Z"/>
+<entry
+   committed-rev="4"
+   name="yappi_alpha.png"
+   text-time="2006-03-22T21:50:26.000000Z"
+   committed-date="2006-03-26T22:52:20.216947Z"
+   checksum="06d8053a5d3b2c5b8b1c9acb23329c06"
+   last-author="quiquee"
+   kind="file"
+   prop-time="2006-03-26T22:49:49.000000Z"/>
+<entry
+   committed-rev="4"
+   name="yappi-logodrupal.png"
+   text-time="2006-03-22T22:14:50.000000Z"
+   committed-date="2006-03-26T22:52:20.216947Z"
+   checksum="fcaccfbbde9e52b78f7c16d97e538815"
+   last-author="quiquee"
+   kind="file"
+   prop-time="2006-03-26T22:49:49.000000Z"/>
+</wc-entries>

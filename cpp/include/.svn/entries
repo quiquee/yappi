@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="43"
+   name=""
+   committed-date="2006-06-12T14:04:00.990166Z"
+   url="http://svn.berlios.de/svnroot/repos/yapp/yapplib/include"
+   last-author="todsawat"
+   kind="dir"
+   uuid="07513077-7409-0410-9367-c17c9522e285"
+   revision="51"/>
+<entry
+   committed-rev="29"
+   name="yappiserver.h"
+   text-time="2006-06-06T15:30:50.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="c05a3924d6a11cffa1da3dda8145693d"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="43"
+   name="yappipacket.h"
+   text-time="2006-06-22T21:40:05.000000Z"
+   committed-date="2006-06-12T14:04:00.990166Z"
+   checksum="9ce3e399a2c5f4f9d6c023b2f04e2b0b"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-22T21:40:05.000000Z"/>
+<entry
+   committed-rev="29"
+   name="dataevent.h"
+   text-time="2006-06-06T15:30:50.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="f0d1a25cae05d0148ac9d5e30cce54b4"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="29"
+   name="datatype.h"
+   text-time="2006-06-06T15:30:50.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="0c7638c54c0900e232fd3822da79797c"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="29"
+   name="yappi_prec.h"
+   text-time="2006-06-06T15:30:50.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="c35d2d62bb77e3d0051b779b296d23d3"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="29"
+   name="yappiclient.h"
+   text-time="2006-06-06T15:30:50.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="adb4dd006c67d278b06848034efaea0d"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="43"
+   name="yappiconnection.h"
+   text-time="2006-06-22T21:40:06.000000Z"
+   committed-date="2006-06-12T14:04:00.990166Z"
+   checksum="27d9aebc713aaf7418e2994ba070a0ee"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-22T21:40:05.000000Z"/>
+<entry
+   committed-rev="29"
+   name="datatick.h"
+   text-time="2006-06-06T15:30:50.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="dda8f4951d7d40f9b47d27003dfe2a3c"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="29"
+   name="datastream.h"
+   text-time="2006-06-06T15:30:50.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="68d492fb03efe8617222e77ec4273ade"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="29"
+   name="dataentity.h"
+   text-time="2006-06-06T15:30:50.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="0bcab83c3e48670cae37cc7266882f24"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="43"
+   name="yappilistener.h"
+   text-time="2006-06-22T21:40:06.000000Z"
+   committed-date="2006-06-12T14:04:00.990166Z"
+   checksum="636319696ae71092b53aa773443d0553"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-22T21:40:05.000000Z"/>
+<entry
+   committed-rev="43"
+   name="yappinode.h"
+   text-time="2006-06-22T21:40:06.000000Z"
+   committed-date="2006-06-12T14:04:00.990166Z"
+   checksum="7490416e2c589fbd68f36749164b5a71"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-22T21:40:05.000000Z"/>
+</wc-entries>

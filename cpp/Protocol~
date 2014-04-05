@@ -1,0 +1,18 @@
+
+Yappi agent is any artifact that uses the Yappi protocol to 
+publish or retrieve real time data using a Yappi Network.
+
+A yappi agent can be an application that runs as a window minimised
+and shows the data as it arrives. For example, it can be an application
+that displays results of the current matches played in the Champions League
+and that updates results as they happen. For other examples of yappi agents
+please refer to the document "Introduction to Yappi"
+
+This document describes the expected behaviour of a Yappi agent. 
+
+When a yappi agent starts it will first try to retrieve a list of Yappi nodes
+that are accepting connections. These are yappi supernodes which can be contacted
+using standard Yappi connection rules. (note: reverse connections are not implemented 
+in the first version of the Yappi protocol, this means that supernodes are contacted 
+by nodes , which are responsible of initiating the connection )
+

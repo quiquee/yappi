@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="29"
+   name=""
+   committed-date="2006-05-31T15:01:00.778532Z"
+   url="http://svn.berlios.de/svnroot/repos/yapp/yapplib/uml"
+   last-author="todsawat"
+   kind="dir"
+   uuid="07513077-7409-0410-9367-c17c9522e285"
+   revision="51"/>
+<entry
+   committed-rev="7"
+   name="heading.cpp"
+   text-time="2006-03-29T06:32:22.000000Z"
+   committed-date="2006-03-29T06:34:42.128816Z"
+   checksum="2ebb042a5448f44cf9105f1373b3fa99"
+   last-author="quiquee"
+   kind="file"/>
+<entry
+   committed-rev="7"
+   name="heading.h"
+   text-time="2006-03-29T06:32:29.000000Z"
+   committed-date="2006-03-29T06:34:42.128816Z"
+   checksum="47836d44ab12964b7015c834f33e1495"
+   last-author="quiquee"
+   kind="file"/>
+<entry
+   committed-rev="29"
+   name="yapplib.xmi"
+   text-time="2006-06-22T22:38:30.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="07830e2db94f2c2f00a6fc4bd6adeb67"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:54.000000Z"/>
+<entry
+   committed-rev="29"
+   name="yapplib2.xmi"
+   text-time="2006-06-06T15:30:57.000000Z"
+   committed-date="2006-05-31T15:01:00.778532Z"
+   checksum="d571a423d0a16f4035e019779571249a"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:55.000000Z"/>
+</wc-entries>

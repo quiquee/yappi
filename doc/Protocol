@@ -1,0 +1,108 @@
+YAPPI AGENTS
+
+A Yappi agent is any artifact that uses the Yappi protocol to 
+publish or retrieve real time data using a Yappi Network.
+
+A yappi agent can be an application that runs as a window minimised
+and shows the data as it arrives. For example, it can be an application
+that displays results of the current matches played in the Champions League
+and that updates results as they happen. For other examples of yappi agents
+please refer to the document "Introduction to Yappi"
+
+This document describes the expected behaviour of a Yappi agent as the appliacation
+that makes uses of the yappi protocol. The yappi protocol is implemented in the
+Yappi library that is distributed under the GPL. 
+
+YAPPI STARTUP PROCESS
+
+When a yappi agent starts it will first try to retrieve a list of Yappi nodes
+that are accepting connections. These are yappi supernodes which can be contacted
+using standard Yappi connection rules. (note: reverse connections are not implemented 
+in the first version of the Yappi protocol, this means that supernodes are contacted 
+by nodes , which are responsible of initiating the connection )
+
+The list of yappi nodes accepting connections is available online at the following
+address: http://www.yappi.org/ynodes.xml . This list contains one entry per node, with 
+its IP address y the port on which it listens connections.
+
+NETWORK CONNECTION INITIALIZATION PROTOCOL (NCIP)
+
+Happens whenever a Yappi agent starts. The purpose is to announce itself to the network
+and gain knowledge about the possible servers to which it can connect.
+
+Client: HELO message consisting of system name and list of YECs that this node is currently
+distributing, either as contributor or as a distribution agent.
+Server: RHELO message that contains a initial server list snapshot and the YEC that 
+this server is distributing and that contains a list of updates to the server list.
+The RHELO may contain no YEC, which should be interpreted as like this server is not
+accepting more connections to the server list updates data stream. In this case the 
+client should close the connection and try with the list of servers provided until it
+finds one that distributes a server list updates stream.
+
+The server will store in its own space the list of YECs for this client together with 
+its IP address, port and system name. This data is needed to be able to perform searches
+in the network.
+
+DATA SEARCH PROTOCOL
+
+Yappi nodes initiate a search by sending a search request to one or many of the servers
+to which it is connected. A search request is done on the same port that a NCIP is done, but
+this time things happen in a very different way.
+
+Searches are always done by YEC. We are supposed to be able to find the list of YECs available
+in some sort of manner, for example in a web portal that consolidates lists of known YECs. 
+Yappi agents have to know what is the YEC they want to connect.
+
+Client: SEARCH message containing the YEC or YECs that it wants to receive and the list of
+YECs that it is currently distributing. The server will use this to update its internal
+database with the new list of YECs for this node. 
+Server: Replies with a list of nodes addresses and ports that are available to distribute this YEC. 
+The server will either find these in its local database or by propagating the search. A TTL will 
+be included in the message then, starting with SEARCH_TTL
+Client: Closes connection.
+
+DATA CONNECTION INITIALIZATION PROTOCOL (DCIP)
+
+Happens whenever a Yappi node wants to receive data from another node. This connection should
+come as result of a search and always after data has been discovered in the network by its
+corresponding YEC.
+An exception to this is the case in which a node is connecting to a server to reveive updates
+to the server list. In this case the connection is done not as result of a search but as 
+result of a network initialization.
+
+Client: ASK message to the server and port with the YEC that it wants to receive
+Server: a response with the port and a data connection token to which the client has to connect
+to receive updates to this YEC. The connection token is a string that encrypts the client
+IP address using a seed that is initialized on node startup. This is to avoid kidnaping of data
+distribution slots. This is always needed for the first data connection, as further connections
+will use the same distribution slot.
+
+
+DATA CONNECTION
+
+it is done using the port and the token string that are passed as result of the data initialization
+negotiation. This is done when we want to receive updates from a server to which we are not
+currently connected. Updates from peers from wich we already receive data will happen using
+the existing DATA CONNECTION
+
+Client: GET message using the token provided as part of te DCIP
+Server: replies with UPDATE messages whenever they happen. UPDATE messages contains a header with 
+the TIMESTAMP and the YEC of this data. Following the header comes the data for this entity using
+the syntax of this data type.
+
+
+SERVER LIST UPDATES STREAM
+
+A data stream containing updates to the server list. As server lists are not unique and
+there may be as many as supernodes are in the network, this data stream is unique per
+supernode. The YEC will be the ID of teh server followed by the server list updates stream
+data type code: "YSLUP" . This is something like 12345.YSLUP
+
+
+SOME RULES
+
+A server (A) doesn't know if the node connecting to it (B) is a server or not. This should be
+completely transparent to the receiver of the connection, this is, to the server (A)
+
+
+

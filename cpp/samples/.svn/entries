@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="42"
+   name=""
+   committed-date="2006-06-04T16:08:02.389346Z"
+   url="http://svn.berlios.de/svnroot/repos/yapp/yapplib/samples"
+   last-author="todsawat"
+   kind="dir"
+   uuid="07513077-7409-0410-9367-c17c9522e285"
+   prop-time="2006-06-06T15:30:52.000000Z"
+   revision="51"/>
+<entry
+   name="release"
+   kind="dir"/>
+<entry
+   committed-rev="41"
+   name="yappisample.dev"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-03T02:51:49.111740Z"
+   checksum="fbf743931fb2d0b5ca54adea1bb7b8dc"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:50.000000Z"/>
+<entry
+   committed-rev="37"
+   name="yappisample_private.rc"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-03T02:22:37.910091Z"
+   checksum="1af7fb11cd954945a20a8e90e1f9d895"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:51.000000Z"/>
+<entry
+   committed-rev="37"
+   name="yappisample_private.h"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-03T02:22:37.910091Z"
+   checksum="3b6af0952166b92ca088a545734e541f"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:51.000000Z"/>
+<entry
+   committed-rev="42"
+   name="yappisample.cpp"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-04T16:08:02.389346Z"
+   checksum="8fc60ae444baa4d3f86a487cd1487848"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:51.000000Z"/>
+<entry
+   committed-rev="40"
+   name="yappisample.wxform"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-03T02:50:46.002600Z"
+   checksum="3db15f9bb336ec42cb0aa2ab87191db6"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:51.000000Z"/>
+<entry
+   committed-rev="37"
+   name="yappisampleApp.cpp"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-03T02:22:37.910091Z"
+   checksum="5536fc53c998c6dcd0ee80c3fcda8e36"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:51.000000Z"/>
+<entry
+   committed-rev="37"
+   name="yappisampleApp.rc"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-03T02:22:37.910091Z"
+   checksum="f23657a63ed10d8f826d704f15dd56a7"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:51.000000Z"/>
+<entry
+   committed-rev="37"
+   name="yappisample.h"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-03T02:22:37.910091Z"
+   checksum="43f648938bb3a13d4a2b91859f32ca3f"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:51.000000Z"/>
+<entry
+   committed-rev="37"
+   name="yappisampleApp.h"
+   text-time="2006-06-06T15:30:52.000000Z"
+   committed-date="2006-06-03T02:22:37.910091Z"
+   checksum="e5d9ef9fdee948dbae937d642ef66b22"
+   last-author="todsawat"
+   kind="file"
+   prop-time="2006-06-06T15:30:52.000000Z"/>
+</wc-entries>

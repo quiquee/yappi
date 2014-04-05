@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="50"
+   name=""
+   committed-date="2006-12-13T20:51:58.979592Z"
+   url="http://svn.berlios.de/svnroot/repos/yapp/perl/Yappi"
+   last-author="quiquee"
+   kind="dir"
+   uuid="07513077-7409-0410-9367-c17c9522e285"
+   revision="51"/>
+<entry
+   committed-rev="45"
+   name="Subscription.pm"
+   text-time="2006-06-23T15:50:16.000000Z"
+   committed-date="2006-06-24T07:17:32.573617Z"
+   checksum="3adb9c8380c6a69f525a9ef9003e65d8"
+   last-author="quiquee"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="Node.pm"
+   text-time="2006-12-13T20:46:37.000000Z"
+   committed-date="2006-12-13T20:51:58.979592Z"
+   checksum="71c717c30598f8c320fe54604a3da73c"
+   last-author="quiquee"
+   kind="file"/>
+<entry
+   committed-rev="45"
+   name="Tick.pm"
+   text-time="2006-06-23T13:35:18.000000Z"
+   committed-date="2006-06-24T07:17:32.573617Z"
+   checksum="4bbf94d899ea589a25a1e4ecaed3cb94"
+   last-author="quiquee"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="Entity.pm"
+   text-time="2006-11-21T20:41:20.000000Z"
+   committed-date="2006-12-13T20:51:58.979592Z"
+   checksum="fd75d61cfa712f2004312aa26348c917"
+   last-author="quiquee"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="NodeCore.pm"
+   text-time="2006-12-13T20:00:47.000000Z"
+   committed-date="2006-12-13T20:51:58.979592Z"
+   checksum="db65eae03a1162aceb14808ab7b1ced6"
+   last-author="quiquee"
+   kind="file"/>
+</wc-entries>

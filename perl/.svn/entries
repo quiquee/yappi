@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="51"
+   name=""
+   committed-date="2006-12-17T16:12:06.642954Z"
+   url="http://svn.berlios.de/svnroot/repos/yapp/perl"
+   last-author="quiquee"
+   kind="dir"
+   uuid="07513077-7409-0410-9367-c17c9522e285"
+   revision="51"/>
+<entry
+   name="Yappi"
+   kind="dir"/>
+<entry
+   committed-rev="50"
+   name="yappiPureConsumer.pl"
+   text-time="2006-12-13T20:20:56.000000Z"
+   committed-date="2006-12-13T20:51:58.979592Z"
+   checksum="2029e8c5ad5bc41f726949d3bfa1e98f"
+   last-author="quiquee"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="yappiPurePublisher.pl"
+   text-time="2006-12-13T20:12:23.000000Z"
+   committed-date="2006-12-13T20:51:58.979592Z"
+   checksum="843a9eeff67814fb53b24b3b77c006f4"
+   last-author="quiquee"
+   kind="file"/>
+<entry
+   committed-rev="51"
+   name="README"
+   text-time="2006-12-17T15:02:30.000000Z"
+   committed-date="2006-12-17T16:12:06.642954Z"
+   checksum="85f1980af16866a381041ad24ee086c8"
+   last-author="quiquee"
+   kind="file"/>
+</wc-entries>
