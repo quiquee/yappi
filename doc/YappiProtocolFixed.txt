@@ -1,6 +1,7 @@
 cur_text
 For more information about yappi, please refer to the Yappi Website [http://www.yappi.org]
 For a somehoe less technical description of the Yappi protocol, please check [[YappiDIL|A day in the life of a Yappi! node]]
+
 == YAPPI AGENTS ==
 
 A Yappi agent is any artifact that uses the Yappi protocol to
